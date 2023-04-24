@@ -3278,7 +3278,7 @@ GameObject:
   - component: {fileID: 1401815151}
   - component: {fileID: 1401815150}
   m_Layer: 5
-  m_Name: ExitImage
+  m_Name: CaughtImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3324,7 +3324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 623a7345ca6d38f4280b86c32ffe7c15, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 85d46c7add1129741a0d78fadba6998e, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3355,7 +3355,7 @@ GameObject:
   - component: {fileID: 1477082874}
   - component: {fileID: 1477082873}
   m_Layer: 5
-  m_Name: CaughtBackground
+  m_Name: CaughtImageBackground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3617,7 +3617,7 @@ MonoBehaviour:
   displayImageDuration: 1
   player: {fileID: 58489358}
   exitBackgroundImageCanvasGroup: {fileID: 209632666}
-  caughtBackgroundImageCanvasGroup: {fileID: 0}
+  caughtBackgroundImageCanvasGroup: {fileID: 1477082873}
 --- !u!65 &1929054683
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3699,6 +3699,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 58489359}
+    - target: {fileID: 4846984707970217707, guid: 182730847e205c94d9df748694762b2c, type: 3}
+      propertyPath: gameEnding
+      value: 
+      objectReference: {fileID: 1929054682}
     - target: {fileID: 8058013582463379236, guid: 182730847e205c94d9df748694762b2c, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3749,3 +3753,64 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 182730847e205c94d9df748694762b2c, type: 3}
+--- !u!1001 &5800622540413579762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155771419, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046155870779, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_Name
+      value: Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 3468960046165377533, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cc2b1bf480824044ea0000d31b60dcf1, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7a64899d95b7d014cb859ffad728d80c, type: 3}
